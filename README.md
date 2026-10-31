@@ -2,7 +2,7 @@
 
 Plain static HTML/CSS with a little JS. No build step. Upload the contents of this folder as-is.
 
-- `index.html` – holding company home (portfolio, venture details, approach, about, contact)
+- `index.html` – J&L Holdings home (portfolio, venture details, approach, about, contact)
 - `professional-services.html` – J&L Professional Services / Local Visibility Fix Sprint offer
 - `privacy.html`, `refund.html` – policies (marked DRAFT, review before publishing)
 - `404.html` – not-found page (uses root-absolute paths; works when the site is at the domain root)
