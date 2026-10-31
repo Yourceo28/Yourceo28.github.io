@@ -8,8 +8,6 @@ Plain static HTML/CSS with a little JS. No build step. Upload the contents of th
 - `404.html` – not-found page (uses root-absolute paths; works when the site is at the domain root)
 
 ## Before / after launch
-- Buy button (professional-services.html, "Claim a founding spot") currently goes to the contact form.
-  When a Stripe LIVE payment link exists, replace its href (placeholder `#STRIPE_LIVE_LINK`, see HTML comment).
-  Do not use the sandbox test link (https://buy.stripe.com/test_14AdR89vB0vV3qm8MM9ws00) on the live site.
+- Buy button on professional-services.html uses the live Stripe payment link https://buy.stripe.com/8x29AT8Yu6Wb66t57PeZ200.
 - Contact form uses `mailto:` (opens the visitor's email app). See the comment above the form to switch to Formspree or Netlify Forms.
 - Optional once a domain is set: add `<link rel="canonical">`, `og:url`, `og:image`, and a sitemap.xml.
